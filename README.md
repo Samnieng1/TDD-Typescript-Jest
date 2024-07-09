@@ -46,19 +46,21 @@ The'predictValue' functiontakes two parameters:
 
   import { predictValue } from '../src/carValuePrediction';
 
-  // Example usage
-  const result = predictValue('CIVIC', 2012);
-  console.log(result); // Output: 6614
-  console.log(predictValue('CIVIC', 2014)); // Output: 6614
-  console.log(predictValue('Model X', 2024)); // Output: 9324
-  console.log(predictValue('123', 2024)); // Output: 'Invalid input'
-  console.log(predictValue('', 2024)); // Output: 'Invalid input'
-  console.log(predictValue('Civic', '2024' as any)); // Output: 'Invalid input'
-  console.log(predictValue(123 as any, 2024)); // Output: 'Invalid input'
+  // Example usage  
+  const result = predictValue('CIVIC', 2012);  
+  console.log(result); // Output: 6614  
+  console.log(predictValue('CIVIC', 2014)); // Output: 6614  
+  console.log(predictValue('Model X', 2024)); // Output: 9324  
+  console.log(predictValue('123', 2024)); // Output: 'Invalid input'  
+  console.log(predictValue('', 2024)); // Output: 'Invalid input'  
+  console.log(predictValue('Civic', '2024' as any)); // Output: 'Invalid input'  
+  console.log(predictValue(123 as any, 2024)); // Output: 'Invalid input'  
 
 ## Running Tests
 This project uses Jest for testing. To run the tests, use the following command:  
+
 **npm test**
+
 ## Summary
 
 This README file includes instructions for installation, usage of the 'predictValue' function, and testing with Jest.
