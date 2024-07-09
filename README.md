@@ -18,7 +18,7 @@ The function returns either a number respresenting the predicted car value or a 
    
 2. Install dependencies
 
-   npm install
+   **npm install
 ## Usage
 
 To use the 'predictValue' function, import it into your TypeScript file as follows:
