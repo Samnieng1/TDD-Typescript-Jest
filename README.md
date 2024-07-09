@@ -1,6 +1,6 @@
 # Car Value Prediction API
 
-This project implements a TypeScript function called 'predictValue' that predict a car value based on the positions of alphabets in a model name, multiplied by 100, and added to a given year value, ignoring Space and any other signs.
+This project implements a TypeScript function called 'predictValue' that predict a car value based on the positions of alphabets in a model name, multiplied by 100, and added to a given year value, **ignoring Space and any other signs**.
 The function returns either a number respresenting the predicted car value or a string indicating 'Invalid input'.
 
 ## Table of Contents
