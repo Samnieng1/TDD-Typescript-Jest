@@ -5,10 +5,10 @@
   "scripts": {
     "test": "jest --watchAll"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "jest", "tdd"],
+  "author": "Samnieng",
   "license": "ISC",
-  "description": "",
+  "description": "A TypeScript project using TDD with Jest for testing",
   "dependencies": {
     "typescript": "^5.5.3"
   },
