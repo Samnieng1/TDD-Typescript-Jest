@@ -14,9 +14,10 @@ The function returns either a number respresenting the predicted car value or a 
 1. Clone the repository
 
    git clone https://github.com/Samnieng1/TDD-Typescript-Jest.git
+   
    cd tdd-typescript-jest
    
-2. Install dependencies
+3. Install dependencies
 
    npm install
    
