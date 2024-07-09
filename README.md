@@ -48,8 +48,8 @@ The'predictValue' functiontakes two parameters:
   import { predictValue } from '../src/carValuePrediction';
 
   // Example usage  
-  const result = predictValue('CIVIC', 2012); // Output: 6612    
-  console.log(result); // Output: 6614    
+  const result = predictValue('CIVIC', 2012);     
+  console.log(result); // Output: 6612    
    console.log(predictValue('CIVIC1', 2014)); // Output: 6614  
    console.log(predictValue('CIVIC!', 2014)); // Output: 6614  
   console.log(predictValue('CIVIC', 2014)); // Output: 6614  
