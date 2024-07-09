@@ -7,7 +7,7 @@ The function returns either a number respresenting the predicted car value or a 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Function Details](#function-details)
-- [Running Tests(#running-tests)
+- [Running Tests](#running-tests)
 - [Summar](#summary)
 
 ## Installation
