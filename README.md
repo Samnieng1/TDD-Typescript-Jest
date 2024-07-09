@@ -26,9 +26,9 @@ To use the 'predictValue' function, import it into your TypeScript file as follo
 
   import { predictValue } from '../src/carValuePrediction';
 
-  // Example usage
-  const result = predictValue('CIVIC', 2014);
-  console.log(result); // Output: 6614
+  // Example usage  
+  const result = predictValue('CIVIC', 2014);  
+  console.log(result); // Output: 6614  
 
 Then right click on your TypeScript file, and click 'run code'. You will see 6614 as the output.
 
@@ -57,7 +57,7 @@ The'predictValue' functiontakes two parameters:
   console.log(predictValue(123 as any, 2024)); // Output: 'Invalid input'
 
 ## Running Tests
-This project uses Jest for testing. To run the tests, use the following command:
+This project uses Jest for testing. To run the tests, use the following command:  
 **npm test**
 ## Summary
 
