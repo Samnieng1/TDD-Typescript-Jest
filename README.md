@@ -18,7 +18,7 @@ The function returns either a number respresenting the predicted car value or a 
    
 2. Install dependencies
 
-   **npm install
+   npm install
 ## Usage
 
 To use the 'predictValue' function, import it into your TypeScript file as follows:
@@ -53,8 +53,8 @@ The'predictValue' functiontakes two parameters:
   console.log(predictValue(123 as any, 2024)); // Output: 'Invalid input'
 
 ## Running Tests
-This project uses Jest for testing. To run the tests, use the following ocmmand:
-npm test
+This project uses Jest for testing. To run the tests, use the following command:
+**npm test
 ## Summary
 
 This README file includes instructions for installation, usage of the 'predictValue' function, and testing with Jest.
